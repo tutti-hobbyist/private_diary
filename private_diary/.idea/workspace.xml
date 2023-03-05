@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="73686c14-daa9-4f53-b4d2-3b560cc6cfe7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diary/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private_diary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/private_diary/settings.py" afterDir="false" />
     </list>
@@ -38,18 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tohok/Desktop/Git/Django/Python_django_development_introduction/My_training/private_diary/private_diary&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/tohok/Desktop/Git/Django/Python_django_development_introduction/My_training/private_diary/private_diary/private_diary",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tohok\Desktop\Git\Django\Python_django_development_introduction\My_training\private_diary\private_diary\private_diary" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tohok\Desktop\Git\Django\Python_django_development_introduction\My_training\private_diary\private_diary\diary" />
       <recent name="C:\Users\tohok\Desktop\Git\Django\Python_django_development_introduction\My_training\private_diary" />
@@ -82,9 +85,10 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DB_USER" value="postgres" />
         <env name="DB_PASSWORD" value="postgres" />
+        <env name="DB_USER" value="postgres" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="private_diary.settings_dev" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\tohok\Desktop\Git\Django\Python_django_development_introduction\My_training\private_diary\Scripts\python.exe" />
       <option name="SDK_NAME" value="Python 3.10 (private_diary)" />
